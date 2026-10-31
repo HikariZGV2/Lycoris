@@ -5,8 +5,17 @@
 	<link href="https://delectus.morixhikari.my.id/atom.xml" rel="self" type="application/atom+xml"/>
 	<link href="https://delectus.morixhikari.my.id/"/>
 	<generator uri="https://www.getzola.org/">Zola</generator>
-	<updated>2026-10-21T00:00:00+00:00</updated>
+	<updated>2026-10-31T00:00:00+00:00</updated>
 	<id>https://delectus.morixhikari.my.id/atom.xml</id>
+	<entry xml:lang="en">
+		<title>Indonesia</title>
+		<published>2026-10-31T00:00:00+00:00</published>
+		<updated>2026-10-31T00:00:00+00:00</updated>
+		<link href="https://delectus.morixhikari.my.id/posts/chaos/" type="text/html"/>
+		<id>https://delectus.morixhikari.my.id/posts/chaos/</id>
+		<summary>Sumpah jabatan diucapkan atas nama Tuhan, tetapi kewajiban terhadap rakyat Kalimantan yang terdampak…</summary>
+		
+	</entry>
 	<entry xml:lang="en">
 		<title>Agama</title>
 		<published>2026-10-21T00:00:00+00:00</published>
