@@ -8,6 +8,8 @@ description = "Wanting to disappear, not being understood, and feeling overwhelm
 tags = ["Curhatan", "sleepy", "Personal"]
 +++
 
+{{ player(track="leave.ogg", dur="3:49", durS="229.0", design="4") }}
+
 Sometimes, I really want to be someone, but I feel like I can't. Sometimes, I just want to escape from all my problems, but I don't know how. I can't take this anymore.
 
 Why are people so cruel to me? Sometimes, they use curse words when talking to me, even though I never use such words toward them. I care so much about other people's feelings, so why do I deserve to be treated this way?
