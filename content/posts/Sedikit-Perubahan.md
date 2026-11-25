@@ -8,7 +8,7 @@ description = "Update tentang rencana content blog dan game development"
 tags = ["Schedule", "Information", "Announcement"]
 +++
 
-<audio controls src="/music/relaksasi.ogg"></audio>
+{{ player(design="5") }}
 
 
 Halo guys, iya, gue tahu ada yang pernah bilang posting setiap hari Minggu, tapi gue selanjutnya bakalan post terus di blog ini. Kenapa? Iya benar, karena gue lagi rajin-rajinnya. Iya, doakan aja ya guys gue rajin terus kayak gini.

@@ -7,4 +7,4 @@ description = "cat"
 tags = ["Curhatan"]
 +++
 
-<div class="music-notes"><p>🎵 play this when the world gets too loud.</p><audio controls src="/music/relaksasi.ogg"></audio></div>
+{{ terminal(file="Stress.md", track="relaksasi.ogg", dur="4:54", durS="294.5", trackDesc="play this when the world gets too loud.", text="Jujur, hari ini aku capek banget. Asli, rasanya udah lah, kayak gitu terus. Obatku cuma musikku, sama menulis blog.") }}

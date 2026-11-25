@@ -7,7 +7,7 @@ description = "Utmattad"
 tags = ["Curhatan", "Sleepy"]
 +++
 
-<div class="music-notes"><p>🎵 sine spe — without hope.</p><audio controls src="/music/mu.ogg"></audio></div>
+{{ terminal(track="mu.ogg", dur="2:38", durS="158.4", trackDesc="sine spe — without hope.") }}
 Sine_spe.md
 Berisik banget ini kepala. Apa aku harus kutembak pakai shotgun, yah, biar tenang dikit? Yah, aku tahu cara beli. Aku lumayan jago menggunakan internet. Aku beli di black market, bisa sepertinya.
 

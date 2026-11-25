@@ -7,4 +7,4 @@ description = "loop"
 tags = ["Curhatan"]
 +++
 
-<div class="music-notes"><p>🎵 a loop you want to break out of.</p><audio controls src="/music/loop.ogg"></audio></div>
+{{ terminal(file="loop.md", track="loop.ogg", dur="2:14", durS="134.1", trackDesc="a loop you want to break out of.", text="Aduh, siklus itu mulai lagi. Eternal return. Terkadang aku ingin berhenti saja, tapi aku ingat satu kalimat: amor fati. Eh, kayaknya habis post ini aku bahas hal lain, kayaknya seru deh.") }}

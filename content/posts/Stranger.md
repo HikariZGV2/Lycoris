@@ -8,7 +8,7 @@ description = "Aku nemu blog ini, terus aku nulis diam-diam. Maaf, ya."
 tags = ["Curhatan"]
 +++
 
-<div class="music-notes"><p>🎵 buat kamu yang lagi ngerasa sendiri.</p><audio controls src="/music/introspective.ogg"></audio></div>
+{{ terminal(track="introspective.ogg", dur="2:07", durS="127.9", trackDesc="buat kamu yang lagi ngerasa sendiri.") }}
 --- guest.md
 Halo. Aku nggak kenal siapa pun di blog ini, termasuk pemiliknya. Maaf, ya, udah nyolong masuk ke sini. Aku cuma butuh tempat buat nulis yang nggak kenal aku.
 --- curhat.md
