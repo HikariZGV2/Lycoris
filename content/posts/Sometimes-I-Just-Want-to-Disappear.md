@@ -8,7 +8,7 @@ description = "Wanting to disappear, not being understood, and feeling overwhelm
 tags = ["Curhatan", "sleepy", "Personal"]
 +++
 
-{{ player(track="leave.ogg", dur="3:49", durS="229.0", design="4") }}
+<audio controls src="/music/leave.ogg"></audio>
 
 Sometimes, I really want to be someone, but I feel like I can't. Sometimes, I just want to escape from all my problems, but I don't know how. I can't take this anymore.
 

@@ -8,7 +8,7 @@ description = "Sebuah curahan hati tentang cinta, penerimaan, dan harapan untuk 
 tags = ["Curhatan", "Relationship"]
 +++
 
-{{ player(track="membasuh.ogg", dur="6:13", durS="373.8", design="7") }}
+<audio controls src="/music/membasuh.ogg"></audio>
 
 
 Terkadang capek harus mengikuti hal-hal yang tidak kita inginkan. Kadang juga kita dipaksa oleh norma yang harus diikuti. Kalau tidak, kita bisa dianggap sebagai musuh masyarakat.

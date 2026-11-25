@@ -8,7 +8,7 @@ description = "Keinginanku sederhana: hanya ingin diterima oleh orang-orang di s
 tags = ["Imagination", "Curhatan"]
 +++
 
-{{ player(track="leave.ogg", dur="4:13", durS="253.3", design="2") }}
+<audio controls src="/music/leave.ogg"></audio>
 
 
 Percakapan antara seseorang:

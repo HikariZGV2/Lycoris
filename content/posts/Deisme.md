@@ -7,7 +7,7 @@ description = "Soal hal yang kupercaya sepertinya"
 tags = ["Curhatan", "Sleepy"]
 +++
 
-{{ player(track="143-ways-to-lose-urself.ogg", dur="2:27", durS="147.0", autoplay="true") }}
+<audio controls src="/music/143-ways-to-lose-urself.ogg"></audio>
 
 Jadi, sebenarnya udah lama sih aku meragukan agama ku sendiri. Yah, bukannya apa-apa, ya. Pertanyaan ku simple, satu aja: kerelevanan agama di zaman sekarang. Menurut ku, agama udah nggak relevan untuk sekarang ini.
 

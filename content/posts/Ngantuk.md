@@ -7,7 +7,7 @@ description = "ffplay"
 tags = ["Curhatan", "Sleepy"]
 +++
 
-{{ terminal(track="mu.ogg", dur="2:38", durS="158.4", trackDesc="buaian buat kamu yang lagi ngantuk.") }}
+<div class="music-notes"><p>🎵 buaian buat kamu yang lagi ngantuk.</p><audio controls src="/music/mu.ogg"></audio></div>
 --- ngantuk.md
 Intinya, aku ngantuk.
 --- sleep.md

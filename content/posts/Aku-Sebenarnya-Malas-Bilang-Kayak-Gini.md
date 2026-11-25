@@ -8,7 +8,7 @@ description = "Cerita tentang dua orang favorit"
 tags = ["Relationship", "Curhatan"]
 +++
 
-{{ player(design="3") }}
+<audio controls src="/music/relaksasi.ogg"></audio>
 
 
 Gw cerita tentang dua orang favorit, loh kok dikit doang keluarga lu egak masuk kah bang? sabar-sabar guys keluarga gw itu diatasnya favorit lah intinya gw sayang banget ama keluargaku. Oh iya back on topic jadi dua orang ini siapa aja sih bang? Okay mungkin aku sebut pakai nama samaran aja deh, yang pertama ada Neisseria, dan yang kedua Tokaro. Okay ku jelaskan deh satu-satu kenapa aku pakai nama samaran yang kayak gitu yang pertama karena username game mereka pakai nama itu yang kedua kalo untuk orang yang pertama itu dia pakai nama penyakit kelamin aku egak tau kenapa pilih nama yang aneh-aneh gitu masih ada toh nama yang waras gitu sama dan untuk orang kedua namanya keren sih itu aja komentar dari aku. Okay mungkin aku jelaskan kenapa sih kedua orang ini jadi orang favorit gw di paragraf selanjutnya.

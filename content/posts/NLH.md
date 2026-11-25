@@ -7,7 +7,7 @@ description = "Halo yall gue bahas satu bab aja dulu karena belum habis aku baca
 tags = ["Literature", "Review"]
 +++
 
-{{ player(design="6") }}
+<audio controls src="/music/relaksasi.ogg"></audio>
 
 
 > [!NOTE]
