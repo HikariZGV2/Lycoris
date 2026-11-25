@@ -16,7 +16,7 @@
 	<entry xml:lang="{{ page.lang }}">
 		<title>{{ page.title }}</title>
 		<published>{{ page.date | date(format="%Y-%m-%dT%H:%M:%S%z") }}</published>
-		<updated>{{ (page.updated or page.date or "1970-01-01T00:00:00+00:00") | date(format="%Y-%m-%dT%H:%M:%S%z") }}</updated>
+		<updated>{{ page.updated | default(value=page.date) | default(value="1970-01-01T00:00:00+00:00") | date(format="%Y-%m-%dT%H:%M:%S%z") }}</updated>
 		<link href="{{ page.permalink | safe }}" type="text/html"/>
 		<id>{{ page.permalink | safe }}</id>
 		{%- if page.description -%}

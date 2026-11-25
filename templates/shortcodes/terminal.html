@@ -21,13 +21,13 @@
 {% set lines = trimmed | split(pat="\n") %}
 {% set fname = lines[0] | trim %}
 {% set ftext = trimmed | replace(pattern=fname ~ "\n", replacement="") | trim %}
-{% set_global fnames = fnames + [fname] %}
-{% set_global ftexts = ftexts + [ftext] %}
+{% set_global fnames = fnames | concat(with=[fname]) %}
+{% set_global ftexts = ftexts | concat(with=[ftext]) %}
 {% endif %}
 {% endfor %}
 {% else %}
-{% set_global fnames = fnames + [file] %}
-{% set_global ftexts = ftexts + [text] %}
+{% set_global fnames = fnames | concat(with=[file]) %}
+{% set_global ftexts = ftexts | concat(with=[text]) %}
 {% endif %}
 {% set lsHtml = '<span class="t-dir">Blog</span>   <span class="t-dir">Musik</span>' %}
 {% for fname in fnames %}
