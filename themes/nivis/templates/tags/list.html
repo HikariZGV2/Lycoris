@@ -6,7 +6,7 @@ endblock title %} {% block content %}
   </div>
 
   {% if terms %} {% set my_terms = terms %} {% else %} {% set taxonomy =
-  get_taxonomy(kind="tags", lang=lang) %} {% set my_terms = taxonomy.items %} {%
+  get_taxonomy(kind="tags") %} {% set my_terms = taxonomy.items %} {%
   endif %}
 
   <div class="category-cloud">

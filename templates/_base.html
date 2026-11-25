@@ -1,4 +1,3 @@
-{% import "_macros.html" as macros %}
 
 <!doctype html>
 <html lang="{{ lang }}">
@@ -42,6 +41,7 @@
 
   {% block head %}
   {% endblock head %}
+  {% block page_heading %}{% endblock page_heading %}
 </head>
 
 <body class="body-block">
@@ -56,7 +56,7 @@
         </div>
         {% endif %}
         <div class="title">
-          <h3><a href="{{ get_url(path="@/_index.md", lang=lang) }}">{{ config.title }}</a></h3>
+          <h3><a href="{{ get_url(path="@/_index.md") }}">{{ config.title }}</a></h3>
           <div class="description">
             <p>{{ config.description }}</p>
           </div>
@@ -73,20 +73,20 @@
         {% for link in config.extra.social_links %}
         <li>
           <a href="{{ link.url | safe }}" aria-label="{{ link.name | title }}">
-            <i class="{{ macros::social_icon(name=link.name) }}"></i>
+            <i class="{% if link.name == "email" %}fas fa-envelope{% elif link.name == "rss" %}fas fa-rss{% elif link.name == "link" %}fas fa-link{% elif link.name == "globe" %}fas fa-globe{% else %}fab fa-{{ link.name }}{% endif %}"></i>
           </a>
         </li>
         {% endfor %}
       </ul>
       <div class="sidebar-action">
-        <a href="{{ get_url(path="@/about/index.md", lang=lang) }}">About Me</a>
+        <a href="{{ get_url(path="@/about/index.md") }}">About Me</a>
       </div>
       <nav class="sidebar-nav">
-        <a href="{{ get_url(path="@/_index.md", lang=lang) }}">Home</a>
-        <a href="{{ get_url(path="@/posts/_index.md", lang=lang) }}">Posts</a>
-        <a href="{{ get_url(path="@/archive/index.md", lang=lang) }}">Archives</a>
-        <a href="{{ get_url(path="@/tags/_index.md", lang=lang) }}">Categories</a>
-        <a href="{{ get_url(path="@/links/index.md", lang=lang) }}">Links</a>
+        <a href="{{ get_url(path="@/_index.md") }}">Home</a>
+        <a href="{{ get_url(path="@/posts/_index.md") }}">Posts</a>
+        <a href="{{ get_url(path="@/archive/index.md") }}">Archives</a>
+        <a href="{{ get_url(path="@/tags/_index.md") }}">Categories</a>
+        <a href="{{ get_url(path="@/links/index.md") }}">Links</a>
       </nav>
     </div>
   </div>
@@ -96,12 +96,12 @@
     {% if current_path != "/" %}
     <div class="page-top animated fadeInDown">
       <nav class="nav">
-        <a href="{{ get_url(path="@/_index.md", lang=lang) }}">Home</a>
-        <a href="{{ get_url(path="@/posts/_index.md", lang=lang) }}" {% if current_path is starting_with("/posts") %}class="active"{% endif %}>Posts</a>
-        <a href="{{ get_url(path="@/about/index.md", lang=lang) }}" {% if current_path is starting_with("/about") %}class="active"{% endif %}>About</a>
-        <a href="{{ get_url(path="@/archive/index.md", lang=lang) }}" {% if current_path is starting_with("/archive") %}class="active"{% endif %}>Archives</a>
-        <a href="{{ get_url(path="@/tags/_index.md", lang=lang) }}" {% if current_path is starting_with("/tags") %}class="active"{% endif %}>Categories</a>
-        <a href="{{ get_url(path="@/links/index.md", lang=lang) }}" {% if current_path is starting_with("/links") %}class="active"{% endif %}>Links</a>
+        <a href="{{ get_url(path="@/_index.md") }}">Home</a>
+        <a href="{{ get_url(path="@/posts/_index.md") }}" >Posts</a>
+        <a href="{{ get_url(path="@/about/index.md") }}" >About</a>
+        <a href="{{ get_url(path="@/archive/index.md") }}" >Archives</a>
+        <a href="{{ get_url(path="@/tags/_index.md") }}" >Categories</a>
+        <a href="{{ get_url(path="@/links/index.md") }}" >Links</a>
       </nav>
       <div class="information">
         <div class="back_btn">

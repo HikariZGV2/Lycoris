@@ -22,17 +22,17 @@
         {% endif %}
         <div class="terminal-card">
           <div class="terminal-bar">
-            <span class="t-title">Mori@Myosotis: ~</span>
+            <span class="t-title">Hikari@Myosotis: ~</span>
           </div>
           <div class="terminal-body">
-            <p class="t-line"><span class="tp-user">Mori</span><span class="tp-at">@</span><span class="tp-host">Myosotis</span><span class="tp-path">:~$</span> <span class="t-cmd">whoami</span></p>
-            <p class="t-line t-out">Mori</p>
-            <p class="t-line"><span class="tp-user">Mori</span><span class="tp-at">@</span><span class="tp-host">Myosotis</span><span class="tp-path">:~$</span> <span class="t-cmd">cat about.txt</span></p>
+            <p class="t-line"><span class="tp-user">Hikari</span><span class="tp-at">@</span><span class="tp-host">Myosotis</span><span class="tp-path">:~$</span> <span class="t-cmd">whoami</span></p>
+            <p class="t-line t-out">Hikari</p>
+            <p class="t-line"><span class="tp-user">Hikari</span><span class="tp-at">@</span><span class="tp-host">Myosotis</span><span class="tp-path">:~$</span> <span class="t-cmd">cat about.txt</span></p>
             <p class="t-line t-out">{{ config.description }}</p>
             {# --- Motto as typed command --- #}
             {% if config.extra.motto_mode and config.extra.motto_mode != "hide" %}
               <p class="t-line">
-                <span class="tp-user">Mori</span><span class="tp-at">@</span><span class="tp-host">Myosotis</span><span class="tp-path">:~$</span>
+                <span class="tp-user">Hikari</span><span class="tp-at">@</span><span class="tp-host">Myosotis</span><span class="tp-path">:~$</span>
                 {% if config.extra.motto_mode == "single" and config.extra.motto %}
                 <span class="motto">{{ config.extra.motto }}</span>
                 {% elif config.extra.motto_mode == "multi" and config.extra.mottos %}
@@ -48,7 +48,7 @@
         {% for link in config.extra.social_links %}
         <li>
           <a href="{{ link.url | safe }}" aria-label="{{ link.name | title }}">
-            <i class="{{ macros::social_icon(name=link.name) }}"></i>
+            <i class="{% if link.name == "email" %}fas fa-envelope{% elif link.name == "rss" %}fas fa-rss{% elif link.name == "link" %}fas fa-link{% elif link.name == "globe" %}fas fa-globe{% else %}fab fa-{{ link.name }}{% endif %}"></i>
           </a>
         </li>
         {% endfor %}
@@ -57,23 +57,23 @@
       <nav class="home-nav">
 
         {% if config.extra.sections.posts | default(value=true) %}
-        <a href="{{ get_url(path="@/posts/_index.md", lang=lang) }}" {% if current_path is starting_with("/posts") %}class="active"{% endif %}>Posts</a>
+        <a href="{{ get_url(path="@/posts/_index.md") }}" >Posts</a>
         {% endif %}
 
         {% if config.extra.sections.about | default(value=true) %}
-        <a href="{{ get_url(path="@/about/index.md", lang=lang) }}" {% if current_path is starting_with("/about") %}class="active"{% endif %}>About</a>
+        <a href="{{ get_url(path="@/about/index.md") }}" >About</a>
         {% endif %}
 
         {% if config.extra.sections.archive | default(value=true) %}
-        <a href="{{ get_url(path="@/archive/index.md", lang=lang) }}" {% if current_path is starting_with("/archive") %}class="active"{% endif %}>Archives</a>
+        <a href="{{ get_url(path="@/archive/index.md") }}" >Archives</a>
         {% endif %}
 
         {% if config.extra.sections.tags | default(value=true) %}
-        <a href="{{ get_url(path="@/tags/_index.md", lang=lang) }}" {% if current_path is starting_with("/tags") %}class="active"{% endif %}>Categories</a>
+        <a href="{{ get_url(path="@/tags/_index.md") }}" >Categories</a>
         {% endif %}
 
         {% if config.extra.sections.links | default(value=true) %}
-        <a href="{{ get_url(path="@/links/index.md", lang=lang) }}" {% if current_path is starting_with("/links") %}class="active"{% endif %}>Links</a>
+        <a href="{{ get_url(path="@/links/index.md") }}" >Links</a>
         {% endif %}
       </nav>
 
@@ -86,7 +86,7 @@
 <div class="home-recent">
   <h2 class="heading">Recent Posts</h2>
   <ul class="recent-list">
-    {% for post in posts_section.pages | slice(start=0, end=config.extra.home_recent_posts) %}
+    {% for post in posts_section.pages %}
     <li>
       <a href="{{ post.permalink }}" class="recent-link">
         <span class="recent-title">{{ post.title }}</span>

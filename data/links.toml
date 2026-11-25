@@ -3,5 +3,6 @@ name = "My Best Friends"
 desc = "My Favorite Humans"
 items = [
     { name = "Neisseria", url = "https://www.tiktok.com/@mantan0230", description = "Uy Mana Kado Yang Kau Janjikan Itu", avatar = "../images/Neisseria.jpg" },
-    { name = "Tokaro", url = "https://www.tiktok.com/@hunter_tmf", description = "Pencinta kucing", avatar = "../images/Tokaro.jpg" },
+    { name = "Emile", url = "https://www.tiktok.com/@emile_solarie07", description = "Wouldn't the world be better off if we took nonsense more seriously.
+-Marvin Marvelous Mechanical Museum Vinyl", avatar = "../images/Emile.jpeg" },
 ]

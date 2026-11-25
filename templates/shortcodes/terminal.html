@@ -20,23 +20,19 @@
 {% if trimmed != "" %}
 {% set lines = trimmed | split(pat="\n") %}
 {% set fname = lines[0] | trim %}
-{% set ftext = lines | slice(start=1) | join(sep="\n") | trim %}
-{% set_global fnames = fnames | concat(with=[fname]) %}
-{% set_global ftexts = ftexts | concat(with=[ftext]) %}
+{% set ftext = trimmed | replace(pattern=fname ~ "\n", replacement="") | trim %}
+{% set_global fnames = fnames + [fname] %}
+{% set_global ftexts = ftexts + [ftext] %}
 {% endif %}
 {% endfor %}
 {% else %}
-{% set_global fnames = fnames | concat(with=[file]) %}
-{% set_global ftexts = ftexts | concat(with=[text]) %}
+{% set_global fnames = fnames + [file] %}
+{% set_global ftexts = ftexts + [text] %}
 {% endif %}
 {% set lsHtml = '<span class="t-dir">Blog</span>   <span class="t-dir">Musik</span>' %}
 {% for fname in fnames %}
 {% set_global lsHtml = lsHtml ~ '   ' %}
-{% if fname | ends_with(ending=".ogg") %}
-{% set_global lsHtml = lsHtml ~ '<span class="t-audio">' ~ fname ~ '</span>' %}
-{% else %}
 {% set_global lsHtml = lsHtml ~ '<span class="t-file">' ~ fname ~ '</span>' %}
-{% endif %}
 {% endfor %}
 <div class="term-window" role="group" aria-label="interactive terminal">
   <div class="term-bar">Mori@{{ host }}: ~</div>
