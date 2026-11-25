@@ -87,6 +87,7 @@
   <h2 class="heading">Recent Posts</h2>
   <ul class="recent-list">
     {% for post in posts_section.pages %}
+    {% if loop.index > config.extra.home_recent_posts %} {% break %} {% endif %}
     <li>
       <a href="{{ post.permalink }}" class="recent-link">
         <span class="recent-title">{{ post.title }}</span>
