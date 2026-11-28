@@ -8,7 +8,7 @@ description = "Dari bangku SD sampai SMK, masalah yang terus menghampiriku hanya
 tags = ["Curhatan", "Hope", "Relationship"]
 +++
 
-{{ player(design="4") }}
+<audio controls style="width:100%; margin:1em 0;"></audio>
 
 
 Makin hari kondisi mental aku makin berat. Sekarang, setiap kali aku dapat sesuatu yang baik, aku malah merasa itu semuanya salah. Tadi aku diajak main sama teman dan teleponan panjang banget, tapi aku cuma bisa diam karena aku bingung dan tidak nyaman.

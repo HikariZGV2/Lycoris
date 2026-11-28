@@ -8,7 +8,7 @@ description = "Titik di mana rasa sakit udah nggak kerasa, karena nggak ada lagi
 tags = ["Relationship", "Curhatan", "Hope", "Information", "Announcement"]
 +++
 
-{{ player(track="leave.ogg", dur="4:13", durS="253.3", design="3") }}
+<audio controls src="/music/leave.ogg" style="width:100%; margin:1em 0;" title="leave.ogg"></audio>
 
 
 Masalah hidup aku cuma di situ-situ aja, kayak cerita klise yang diceritain berkali-kali sampai muak mendengarnya. Menurut aku, lebih baik aku nggak melakukan apapun yang berkaitan sama sosial karena setiap kenal sama orang baru, ada aja masalahnya. Bahkan teman terdekat aku dulu pun pernah punya masalah sama aku. Tapi ya bodoamat, sekarang kita udah berteman layaknya saudara kandung. Kadang memang agak nyebelin, tapi selama dia baik sama aku, nggak aku peduliin.

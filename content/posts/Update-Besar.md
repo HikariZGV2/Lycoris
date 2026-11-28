@@ -8,7 +8,7 @@ description = "Update website dengan tema baru dan dukungan foto"
 tags = ["Information", "Announcement"]
 +++
 
-{{ player(design="3") }}
+<audio controls style="width:100%; margin:1em 0;"></audio>
 
 
 

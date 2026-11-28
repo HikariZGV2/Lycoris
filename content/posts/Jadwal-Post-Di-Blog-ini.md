@@ -8,7 +8,7 @@ description = "Jadwal update blog dan informasi channel YouTube"
 tags = ["Schedule", "Information", "Announcement", "Curhatan"]
 +++
 
-{{ player(design="7") }}
+<audio controls style="width:100%; margin:1em 0;"></audio>
 
 
 Hi guys gw egak bakalan panjang-panjang banget nulis ini post di blog gw. Aku cuman ngasih tau jadwal aku update ini blog kemungkinan setiap hari minggu sih, loh kenapa hari minggu doang bang? karena sekolah gw yang sangat keren cuman punya satu hari libur dalam seminggu maklum sekolahnya masih tahap renovasi katanya sih.

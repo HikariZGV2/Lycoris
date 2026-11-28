@@ -7,7 +7,7 @@ description = "apakah pilihanku benar"
 tags = ["Curhatan", "Sleepy", "Hope"]
 +++
 
-{{ player(track="mu.ogg", dur="2:38", durS="158.4", design="2") }}
+<audio controls src="/music/mu.ogg" style="width:100%; margin:1em 0;" title="mu.ogg"></audio>
 Apakah pilihanku saat ini benar? Terkadang aku berpikir, ada kalanya apa yang kupilih bukan atas kehendakku sendiri, melainkan pengaruh dari orang lain. Misalnya, aku suka coding. Pasti ada pemicunya, kan? Nah, itu yang kumaksud. Jadi aku berpikir bahwa setiap kali aku memilih, ada pemicu yang diciptakan orang lain, sehingga pilihanku tidak seratus persen kehendakku. Mungkin yang lebih penting bukan dari mana pilihan itu berasal, melainkan apakah setelah kupikirkan, aku masih mau memilihnya.
 
 Jujur, kalau bisa memilih, aku mau jadi wanita. Kenapa? Selama jadi pria, aku tidak pernah mendapat perlakuan yang enak, mungkin karena aku sedikit berbeda dari mereka. Keinginanku menjadi wanita ini mungkin juga dipengaruhi lingkunganku, karena aku tidak pernah mendapat lingkungan yang bagus. Contohnya di sekolah. Selama di sekolah, aku tidak pernah merasa ada. Aku merasa sendirian terus dan tidak pernah merasa terkoneksi dengan orang-orang di sana. Aku juga merasa terputus dari realitas itu sendiri. Selama di sekolah, seolah-olah yang kulihat di depan mataku tidak nyata. Di luar sekolah pun kadang begitu. Aku tidak pernah merasa terkoneksi dengan teman-temanku. Aku merasa seperti tempat curhat mereka saja, dan mereka tidak tahu bagaimana keadaanku sekarang. Mereka tidak mau mendengar ceritaku.

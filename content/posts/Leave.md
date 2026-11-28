@@ -8,7 +8,7 @@ description = "Kayaknya umur aku tidak sampai 20 tahun"
 tags = ["Music", "Shoegaze", "Review"]
 +++
 
-{{ player(track="leave.ogg", dur="4:13", durS="253.3", design="4") }}
+<audio controls src="/music/leave.ogg" style="width:100%; margin:1em 0;" title="leave.ogg"></audio>
 
 
 Hey semuanya, kali ini gue mau bahas lagu shoegaze berjudul [Leave](https://open.spotify.com/track/6lRJqlbbsSAyoN67hVsF8A?si=37f1bc70c6a5496e). Abaikan dulu foto albumnya, fokus saja ke lagunya, karena menurut gue ini lagu bagus banget.
