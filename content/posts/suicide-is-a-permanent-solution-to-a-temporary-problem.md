@@ -8,7 +8,7 @@ description = "Cerita tentang hubungan, kehidupan sosial, rasa lelah menjadi dir
 tags = ["Curhatan"]
 +++
 
-<audio controls style="width:100%; margin:1em 0;"></audio>
+{{ player(design="6") }}
 
 
 > [!NOTE]

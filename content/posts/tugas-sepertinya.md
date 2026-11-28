@@ -8,10 +8,7 @@ description = "Service Jaringan Komputer"
 tags = ["Curhatan", "Learn", "Tech", "Literature"]
 +++
 
-<div class="term-inline" style="border:1px solid #333; padding:1em; margin:1em 0; font-family:monospace; background:#1a1a1a; color:#eee;">
-<div style="color:#00ff00;">Mori@LycorisRadiata: ~</div>
-<span>Terminal session</span>
-</div>
+{{ terminal(show="5") }}
 --- 01-jujur.md
 Jujur, selama pembuatan blog ini baru pertama kalinya saya bahas tentang soal jaringan komputer. Ya, kalau ditanya alasannya, kenapa disuruh guru, lebih tepatnya satu kelas diberikan tugas berupa merangkum materi yang dipelajari tadi di sekolah. Jujur, kalau saya kemungkinan bukan merangkum materi saja. Soalnya, kemungkinan di post kali ini saya akan bahas hari ini. Dikarenakan kalau saya merangkum doang, agak kurang. Seperti kalian tahu, kalau saya di blog ini lebih ke keluh kesah dan menceritakan hiruk pikuk kehidupan saya, atau isi kepala saya yang kadang susah dia ajak kompromi sebelum tidur. Jadi saya curahkan isi hati saya dan kepala saya di blog ini. Kalau disuruh merangkum materi, kurang tepat bagi saya. Karena, kembali lagi, blog saya ini sudah dibangun dari cerita-cerita saya dan juga ada satu atau dua, sepertinya, yang mereview buku atau lagu. Okeii, mungkin saya akan menceritakan hari ini saya ngapain saja sebagai pelajar.
 --- 02-pagi.md

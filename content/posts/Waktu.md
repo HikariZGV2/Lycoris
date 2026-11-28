@@ -7,7 +7,7 @@ description = "Lima Minggu"
 tags = ["Literature", "Story", "Imagination"]
 +++
 
-<audio controls style="width:100%; margin:1em 0;"></audio>
+{{ player(design="2") }}
 
 
 365 hari telah terlalui, dan selama itu aku menunggu kesembuhan dirinya dari penyakit yang mematikan. Aku ingin sekali orang yang aku sayangi bisa sembuh, dan aku harap 3 bulan lagi dia benar-benar pulih dari penyakitnya.

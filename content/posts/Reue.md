@@ -8,7 +8,7 @@ description = "Tentang tugas, kelas, dan janji yang belum ditepati"
 tags = ["Announcement", "Information", "Curhatan", "Relationship"]
 +++
 
-<audio controls src="/music/leave.ogg" style="width:100%; margin:1em 0;" title="leave.ogg"></audio>
+{{ player(track="leave.ogg", dur="4:13", durS="253.3", design="5") }}
 
 
 Belakangan ini saya tidak memposting apa pun di blog karena banyak tugas yang menumpuk. Selain itu, saya juga sedang berusaha bertahan di kelas yang terasa seperti tidak menginginkan kehadiran saya sebagai manusia. Kadang saya berpikir, mengapa saya merasa berbeda dari yang lain? Mengapa mereka bisa memiliki banyak teman, sedangkan saya di kelas justru merasa dijauhi? Terkadang saya juga merasa hanya dimanfaatkan oleh beberapa orang.

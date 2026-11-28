@@ -7,7 +7,7 @@ description = "Sumpah jabatan diucapkan atas nama Tuhan, tetapi kewajiban terhad
 tags = ["Curhatan", "Sleepy"]
 +++
 
-<audio controls src="/music/143-ways-to-lose-urself.ogg" style="width:100%; margin:1em 0;" title="143-ways-to-lose-urself.ogg"></audio>
+{{ player(track="143-ways-to-lose-urself.ogg", dur="2:27", durS="147.0", autoplay="true") }}
 
 "Demi Allah, saya bersumpah akan memenuhi kewajiban Presiden Republik Indonesia (Wakil Presiden Republik Indonesia) dengan sebaik-baiknya dan seadil-adilnya, memegang teguh Undang-Undang Dasar dan menjalankan segala undang-undang dan peraturannya dengan selurus-lurusnya serta berbakti kepada Nusa dan Bangsa."
 

@@ -8,7 +8,7 @@ description = "Gw Ganti Ke Zola"
 tags = ["Announcement", "Information"]
 +++
 
-<audio controls style="width:100%; margin:1em 0;"></audio>
+{{ player(design="4") }}
 
 
 Akhirnya gue udah selesai update blog ini. Sebenarnya dua hari ini gue ada kendala buat update karena harinya panas banget selama dua hari ini, dan gue juga sempat sakit. Oh iya, sekarang gue enggak pakai Hugo lagi, tapi pakai Zola. Untuk update game development bisa dimulai besok karena gue udah lumayan capek buat update blog ini hari ini.
@@ -17,4 +17,4 @@ Oh iya, alasan gue pindah ke Zola karena Zola ditulis pakai Rust jadi cepet. Oh 
 
 Ya sudah, sampai jumpa lagi guys, bye.
 
-<figure style="margin:1em 0;"><img src="/images/1.jpg" alt="Foto Langit dan ada Mataharinya" style="max-width:100%; height:auto;"><figcaption>Foto Langit</figcaption></figure>
+{{ image(src="/images/1.jpg", alt="Foto Langit dan ada Mataharinya", caption="Foto Langit") }}

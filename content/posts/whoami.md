@@ -7,11 +7,7 @@ description = "whoami"
 tags = ["Curhatan"]
 +++
 
-<div class="term-inline" style="border:1px solid #333; padding:1em; margin:1em 0; font-family:monospace; background:#1a1a1a; color:#eee;">
-<div style="color:#00ff00;">Mori@LycorisRadiata: ~</div>
-<span>Terminal session</span>
-<audio controls src="/music/leave.ogg" style="width:100%; margin-top:1em;" title="leave.ogg"></audio>
-</div>
+{{ terminal(track="leave.ogg", dur="4:13", durS="253.3", trackDesc="play this when you want to leave it all behind.") }}
 --- 01-pagi.md
 Udah cape banget aku asli, punya teman kayak gini amat. Di samping kiri aku berisik minta ampun, di samping kanan aku agak ngeselin, dan juga orang itu ngeselin banget bangke. Besok apalagi? Capek banget aku asli, malas banget. Udah lah, pagi ini bad mood, tambah lagi orangnya brengsek banget. IDK, aku juga bingung. Kayak aku mau memamer blog aku doang, soalnya kayak teman kayak emotionless gitu ya. Mau memamer doang si, hehehehe. Ya alias, mau kasih tunjuk blog aku siapa tahu tertarik untuk membaca.
 --- 02-sekolah.md

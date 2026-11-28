@@ -7,7 +7,7 @@ description = "g++ new_me.cpp -o main"
 tags = ["Curhatan"]
 +++
 
-<audio controls src="/music/missing_textures.ogg" style="width:100%; margin:1em 0;" title="missing_textures.ogg"></audio>
+{{ player(track="missing_textures.ogg", dur="3:09", durS="190.0", design="4") }}
 
 Aku mati lagi, tertidur di dalam kepala. Tidak ingin menjadi kepribadian ku itu lagi, aku bunuh dia. Singgah tidak bisa lagi mengambil alih tubuh ku lagi. Aku sangat membenci diri ku gara-gara dia. Jadi hari ini ku bunuh dia. Singgah tidak ada lagi, orang membenci ku lagi, dan juga orang-orang senang dengan diri ku yang baru.
 

@@ -7,11 +7,7 @@ description = "ffplay"
 tags = ["Curhatan", "Sleepy"]
 +++
 
-<div class="term-inline" style="border:1px solid #333; padding:1em; margin:1em 0; font-family:monospace; background:#1a1a1a; color:#eee;">
-<div style="color:#00ff00;">Mori@LycorisRadiata: ~</div>
-<span>Terminal session</span>
-<audio controls src="/music/mu.ogg" style="width:100%; margin-top:1em;" title="mu.ogg"></audio>
-</div>
+{{ terminal(track="mu.ogg", dur="2:38", durS="158.4", trackDesc="buaian buat kamu yang lagi ngantuk.") }}
 --- ngantuk.md
 Intinya, aku ngantuk.
 --- sleep.md
