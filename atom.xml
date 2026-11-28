@@ -5,8 +5,17 @@
 	<link href="https://delectus.morixhikari.my.id/atom.xml" rel="self" type="application/atom+xml"/>
 	<link href="https://delectus.morixhikari.my.id/"/>
 	<generator uri="https://www.getzola.org/">Zola</generator>
-	<updated>2026-11-07T00:00:00+0000</updated>
+	<updated>2026-11-28T00:00:00+0000</updated>
 	<id>https://delectus.morixhikari.my.id/atom.xml</id>
+	<entry xml:lang="en">
+		<title>Melepaskan</title>
+		<published>2026-11-28T00:00:00+0000</published>
+		<updated>2026-11-28T00:00:00+0000</updated>
+		<link href="https://delectus.morixhikari.my.id/posts/melepaskan/" type="text/html"/>
+		<id>https://delectus.morixhikari.my.id/posts/melepaskan/</id>
+		<summary>Terkadang, yang sulit bukan mempertahankan, melainkan melepaskan.</summary>
+		
+	</entry>
 	<entry xml:lang="en">
 		<title>Sometimes, I Just Want to Disappear</title>
 		<published>2026-11-07T00:00:00+0000</published>
