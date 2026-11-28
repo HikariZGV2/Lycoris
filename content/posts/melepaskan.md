@@ -7,9 +7,9 @@ description = "Terkadang, yang sulit bukan mempertahankan, melainkan melepaskan.
 tags = ["Curhatan", "Hidup"]
 +++
 
-<div class="term-inline" style="border:1px solid #333; padding:1em; margin:1em 0; font-family:monospace; background:#1a1a1a; color:#eee;">
-<div style="color:#00ff00;">Mori@LycorisRadiata: ~</div>
-<pre style="white-space:pre-wrap;">Selama ini, ternyata yang sulit bukan mempertahankan, melainkan melepaskan.
+{{ player(track="membasuh.ogg", dur="4:54", durS="294.5", trackDesc="Membasuh") }}
+
+Selama ini, ternyata yang sulit bukan mempertahankan, melainkan melepaskan.
 
 Terkadang, aku juga berpikir, untuk apa aku mempertahankan sesuatu yang sudah tidak kunanti lagi?
 
@@ -31,6 +31,4 @@ Terkadang, telat ku sadar bahwa ternyata hidup bukan sekadar tentang menjalani k
 
 Terkadang, aku juga bertanya-tanya, mengapa sebagian orang yang beragama justru memiliki persoalan perihal moral yang terkadang lebih buruk daripada orang ateis maupun agnostik? Entahlah, aku sendiri tidak tahu. Bahkan, aku juga pernah diperlakukan tidak baik oleh orang yang beragama. Namun, bukan berarti aku harus terus-menerus menyimpan rasa sakit hati karena hal itu.
 
-Pada akhirnya, aku hanya ingin mengambil hal-hal yang kusukai dan membiarkan hal-hal yang tidak kusukai pergi. Jika perlu, akan kutebar semuanya di lautan agar hilang selamanya.</pre>
-<audio controls src="/music/membasuh.ogg" style="width:100%; margin-top:1em;" title="Membasuh"></audio>
-</div>
+Pada akhirnya, aku hanya ingin mengambil hal-hal yang kusukai dan membiarkan hal-hal yang tidak kusukai pergi. Jika perlu, akan kutebar semuanya di lautan agar hilang selamanya.
