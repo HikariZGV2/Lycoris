@@ -253,16 +253,16 @@ var TRACKDESC = "play this when the world gets too loud.";
   var promptPath = term.querySelector('.term-prompt .tp-path');
 
   var files = {
-"~/Stress.md": "Jujur, hari ini aku capek banget. Asli, rasanya udah lah, kayak gitu terus. Obatku cuma musikku, sama menulis blog.",
+"~/cat.md": "Jujur, hari ini aku capek banget. Asli, rasanya udah lah, kayak gitu terus. Obatku cuma musikku, sama menulis blog.",
     '~/Blog/motto.md': 'Amor fati. Love whatever happens, including today.',
     ['~/Musik/' + TRACK]: TRACK + ' | ' + DUR + ' | ' + TRACKDESC
   };
   var protectedFiles = {
-"~/Stress.md": true,
+"~/cat.md": true,
     '~/Blog/motto.md': true
   };
   var dirs = {
-    '~': ['Blog', 'Musik', "Stress.md"],
+    '~': ['Blog', 'Musik', "cat.md"],
     '~/Blog': ['motto.md'],
     '~/Musik': [TRACK]
   };
@@ -484,8 +484,8 @@ var TRACKDESC = "play this when the world gets too loud.";
     { out: '[ ok ] Starting blogd' },
     { out: '' },
     { cmd: 'whoami', out: 'Mori' },
-    { cmd: 'ls', out: "<span class=\"t-dir\">Blog</span>   <span class=\"t-dir\">Musik</span>   <span class=\"t-file\">Stress.md</span>", html: true },
-{ cmd: 'cat Stress.md', out: "Jujur, hari ini aku capek banget. Asli, rasanya udah lah, kayak gitu terus. Obatku cuma musikku, sama menulis blog." },
+    { cmd: 'ls', out: "<span class=\"t-dir\">Blog</span>   <span class=\"t-dir\">Musik</span>   <span class=\"t-file\">cat.md</span>", html: true },
+{ cmd: 'cat cat.md', out: "Jujur, hari ini aku capek banget. Asli, rasanya udah lah, kayak gitu terus. Obatku cuma musikku, sama menulis blog." },
   ];
 
   function runBoot() {
